@@ -1,0 +1,56 @@
+# Dependencies
+node_modules/
+*/node_modules/
+.pnp
+.pnp.js
+
+# Environment variables & secrets
+.env
+.env.*
+*.env
+*.pem
+*.key
+*.cert
+*.crt
+# Preserve example environment configuration files
+!.env.example
+!**/.env.example
+
+# Database local storage & container volumes
+postgres-data/
+data/
+*.db
+*.sqlite
+*.sqlite3
+
+# Build outputs
+dist/
+build/
+*/dist/
+*/build/
+out/
+.next/
+
+# Test artifacts & reports
+coverage/
+*/coverage/
+.nyc_output/
+e2e/test-results/
+e2e/playwright-report/
+test-results/
+playwright-report/
+blob-report/
+playwright/.cache/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.log
+
+# IDE & OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
